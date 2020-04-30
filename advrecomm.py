@@ -71,7 +71,7 @@ def fetchOpId(subscription_id, accessToken, apiVersion):
     return operationId
 
 
-# Function to fetch OperationId 
+# Function to fetch the Generation Status 
 
 def fetchGenStatus(operationId, subscription_id, accessToken, apiVersion, sleepInterval, retryCtr):
 
